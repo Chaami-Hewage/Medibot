@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\Asus\Desktop\project works with proteus\project group 21-205104P(LCD)\LCD+12C proteus\i2c LCD Proteus.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
